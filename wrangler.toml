@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 command = "npm run build"
 
 [assets]
-directory = ".svelte-kit/cloudflare"
+directory = "static"
 binding = "ASSETS"
 
 

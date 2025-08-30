@@ -5,8 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "powershell -Command \"Get-Process -Name 'node' -ErrorAction SilentlyContinue | Stop-Process -Force; vite dev\"",
-		"build": "npm run copy-static && vite build",
-		"copy-static": "powershell -Command \"if (Test-Path '.svelte-kit') { Copy-Item -Path 'static/*' -Destination '.svelte-kit/cloudflare/' -Recurse -Force }\"",
+		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
