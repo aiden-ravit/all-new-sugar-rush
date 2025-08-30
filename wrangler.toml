@@ -1,13 +1,16 @@
 name = "all-new-sugar-rush"
+main = "src/lib/index.ts"
 compatibility_date = "2025-07-26"
 compatibility_flags = ["nodejs_compat"]
 
 [build]
 command = "npm run build"
 
-# SvelteKit static assets
-[site]
-bucket = ".svelte-kit/cloudflare"
+[assets]
+directory = ".svelte-kit/cloudflare"
+binding = "ASSETS"
+
+
 
 [[d1_databases]]
 binding = "DB"
