@@ -1,5 +1,5 @@
 name = "all-new-sugar-rush"
-main = "src/lib/index.ts"
+main = ".svelte-kit/cloudflare/worker.js"
 compatibility_date = "2025-07-26"
 compatibility_flags = ["nodejs_compat"]
 
@@ -9,8 +9,6 @@ command = "npm run build"
 [assets]
 directory = ".svelte-kit/cloudflare"
 binding = "ASSETS"
-
-
 
 [[d1_databases]]
 binding = "DB"
