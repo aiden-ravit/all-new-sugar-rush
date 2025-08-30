@@ -1,0 +1,15 @@
+name = "all-new-sugar-rush"
+compatibility_date = "2025-07-26"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm run build"
+
+# SvelteKit static assets
+[site]
+bucket = ".svelte-kit/cloudflare"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "all-new-sugar-rush"
+database_id = "7f65a9a1-0ec7-4494-a5d1-b10388ceead1"
