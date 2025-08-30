@@ -1,5 +1,5 @@
 name = "all-new-sugar-rush"
-main = "src/lib/index.ts"
+main = ".svelte-kit/cloudflare/worker.js"
 compatibility_date = "2025-07-26"
 compatibility_flags = ["nodejs_compat"]
 
