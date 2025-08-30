@@ -15,7 +15,6 @@
 		"db:migrate": "wrangler d1 migrations apply all-new-sugar-rush"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-cloudflare": "^7.2.3",
 		"@sveltejs/kit": "^2.37.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/vite": "^4.0.0",
@@ -27,6 +26,7 @@
 		"wrangler": "^4.32.0"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^7.2.3",
 		"lucide-svelte": "^0.541.0"
 	}
 }
